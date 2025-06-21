@@ -1,8 +1,8 @@
 #!/bin/bash
 
 
-PERSON1 = appy
-PERSON2 = mona 
+PERSON1=appy
+PERSON2=mona 
 
 echo "$PERSON1:: I am angry"
 echo "$PERSON2:: why what is the matter"
