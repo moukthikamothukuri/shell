@@ -1,10 +1,10 @@
 #!/bin/bash
 
 
-Person1 = appy
-Person2 = mona 
+PERSON1 = appy
+PERSON2 = mona 
 
-echo "$Person1:: I am angry"
-echo "$Person2:: why what is the matter"
-echo "$Person1: : It is just I can't control my emotion'"
-echo "$Person2::don't worry, just take a deep breath, everything will be alright'"
+echo "$PERSON1:: I am angry"
+echo "$PERSON2:: why what is the matter"
+echo "$PERSON1: : It is just I can't control my emotion'"
+echo "$PERSON2::don't worry, just take a deep breath, everything will be alright'"
