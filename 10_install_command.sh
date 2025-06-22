@@ -11,3 +11,11 @@ echo "you are good to go"
 fi
 
 dnf install mysql -y
+
+if [ $? -eq 0 ]
+then
+echo "it is successful"
+exit 1
+else 
+echo "fail"
+fi
