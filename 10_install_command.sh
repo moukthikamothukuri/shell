@@ -2,7 +2,7 @@
 
 USERID=$(id -u)
 
-if [ USERID=$ -ne 0 ]
+if [ $USERID -ne 0 ]
 then
 echo "ERROR:: please run with the root access"
 exit 1 #give other than 0
