@@ -10,3 +10,4 @@ then
 echo "$NUMBER is a small number"
 else 
 echo "$NUMBER is a big number"
+fi
