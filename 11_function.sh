@@ -55,7 +55,9 @@ dnf install python3 -y
 VALIDATE $? "python3"
 
 else 
-echo "MYSQL is already installed... nothing to do"
+echo "python is already installed... nothing to do"
+
+fi
 
 dnf list installed nginx
 # check if it is installed or not the $? should be 0
@@ -69,6 +71,6 @@ VALIDATE $? "nginx"
 else 
 echo "nginx is already installed... nothing to do"
 
-
+fi
 
 
