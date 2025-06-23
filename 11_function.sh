@@ -19,7 +19,7 @@ else
 echo "$2 fail"
 exit 1
 
-}
+
 
 dnf list installed mysql
 # check if it is installed or not the $? should be 0
